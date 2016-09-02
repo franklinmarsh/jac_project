@@ -1,0 +1,71 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{natbib}
+
+\title{Survival of Gentrification / Depreciation in Restaurants}
+\author{F. M. Marsh and J. A. Clithero}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract} \label{abstract}
+
+\section{Introduction} \label{introduction}
+
+Yelp Dataset Papers:
+
+\citep{alghunaim2015vector,byers2012groupon,cawkwell2015tracking,chepurna2015exploiting,feng2013recommendation,gutierrez2014noise,hajas2014analysis,hu2014your,liu2015mining,mashhadi2012accuracy,quattrone2015there}
+
+Zillow Dataset Papers:
+
+Has previously been combined with the yelp dataset \citet{bonnarlittle}.
+
+Our goal is to use the correlation of two time-series:
+
+1. The monthly median rent, as tracked by Zillow Rental Data.
+2. The median restaurant review rating (stars) for each restaurant in a neighborhood.
+
+Zillow rental data can be used to detect appreciating, and depreciating neighborhoods.
+
+As rents rise in a given neighborhood, which types of businesses fare / worse better in the reviews? 
+As rents fall in a given neighborhood, which types of business fare / worse better in the reviews?
+
+We hope to present concrete suggestions to restaurant owners to improve the survivability of their businesses in times of strong appreciation / depreciation in the housing market.
+
+\section{Data} \label{Data}
+
+\subsection{Yelp Academic Dataset} \label{Yelp Academic Dataset}
+
+The Yelp Academic Dataset contains five files.
+
+\subsection{Zillow Public Dataset} \label{Zillow Public Dataset}
+
+The Zillow Public Dataset (hereafter Zillow dataset) contains many files.
+
+Zillow divides homes into geographic ``neighborhoods" with well defined boundaries. The ZHVI, and rental data is reported for every neighborhood, on a monthly basis.
+
+\section{Methods} \label{Methods}
+
+\subsection{Combination of Datasets} \label{Combination of Datasets}
+
+Each Yelp business is tagged with a geographic (latitude, longitude) coordinate. Each Zillow neighborhood has geographic boundaries. We sort each Yelp business into its appropriate Zillow neighborhood.
+
+\subsection{Determination of Most Common Yelp Tags} \label{Determination of Most Common Yelp Tags}
+
+Each Yelp business has user-generated tags, that allow other users to determine what genre the business is. For restaurants, common tags are "Mexican", "Chinese", etc.
+
+\subsection{Computation of Price Trend} \label{Computation of Price Trend}
+
+\bibliographystyle{abbrvnat}
+\bibliography{jac_paper.bib}
+
+\end{document}  
