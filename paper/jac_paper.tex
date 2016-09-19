@@ -94,6 +94,37 @@ We introduce the concept of the bounding box which we will define as the smalles
 
 We then test for point-in-polygon inclusion using an implementation of a ray-casting method in \texttt{Python} \citep{sutherland1974characterization}. For each Yelp business, we only test the Zillow neighborhoods whose bounding boxes it lies within. 
 
+\begin{tabular}{lrrrr}
+\hline
+{} &  median &         mean &    sum &  len \\
+city            &         &              &        &      \\
+\hline
+Charlotte       &    43.0 &    66.092308 &   4296 &   65 \\
+Henderson       &   105.0 &   153.000000 &   2907 &   19 \\
+Las Vegas       &   241.5 &   242.041667 &   5809 &   24 \\
+Madison         &    36.0 &    71.400000 &   1071 &   15 \\
+Mesa            &   491.5 &   509.500000 &   3057 &    6 \\
+North Las Vegas &   903.0 &   903.000000 &    903 &    1 \\
+Phoenix         &   625.0 &   763.333333 &  11450 &   15 \\
+Pittsburgh      &    43.5 &    94.769231 &   2464 &   26 \\
+Scottsdale      &  2100.0 &  1531.666667 &   4595 &    3 \\
+Tempe           &    26.5 &    29.888889 &    538 &   18 \\
+\hline
+\end{tabular}
+
+\begin{tabular}{lrrrr}
+\hline
+{} &  median &        mean &    sum &  len \\
+state &         &             &        &      \\
+\hline
+AZ    &   116.5 &  467.619048 &  19640 &   42 \\
+NC    &    43.0 &   66.092308 &   4296 &   65 \\
+NV    &   178.0 &  218.613636 &   9619 &   44 \\
+PA    &    43.5 &   94.769231 &   2464 &   26 \\
+WI    &    36.0 &   71.400000 &   1071 &   15 \\
+\hline
+\end{tabular}
+
 \subsection{Determination of Most Common Yelp Tags} \label{Determination of Most Common Yelp Tags}
 
 Each Yelp business has user-generated tags, that allow other users to determine what genre the business is. For restaurants, common tags are "Mexican", "Chinese", etc.

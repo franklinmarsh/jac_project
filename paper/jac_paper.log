@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 SEP 2016 09:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 SEP 2016 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,19 +320,19 @@ Package pdftex.def Info: bbox_example.png used on input line 88.
 Package natbib Warning: Citation `sutherland1974characterization' on page 2 und
 efined on input line 95.
 
-(./jac_paper.bbl [2] [3 <./phx_test.png>] [4 <./bbox_example.png>] [5])
+[2] [3 <./phx_test.png>] [4 <./bbox_example.png>] (./jac_paper.bbl [5])
 
 Package natbib Warning: There were undefined citations.
 
 [6] (./jac_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3268 strings out of 493315
- 44111 string characters out of 6137904
- 112497 words of memory out of 5000000
- 6672 multiletter control sequences out of 15000+600000
- 10875 words of font info for 41 fonts, out of 8000000 for 9000
+ 3272 strings out of 493315
+ 44177 string characters out of 6137904
+ 114497 words of memory out of 5000000
+ 6676 multiletter control sequences out of 15000+600000
+ 11866 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,26p,453b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,26p,478b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/ams
@@ -342,7 +342,7 @@ s/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb>
-Output written on jac_paper.pdf (6 pages, 1070082 bytes).
+Output written on jac_paper.pdf (6 pages, 1070929 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
