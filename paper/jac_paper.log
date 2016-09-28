@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  27 SEP 2016 20:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 SEP 2016 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,52 +389,67 @@ Package pdftex.def Info: metro_price_box.png used on input line 141.
 (pdftex.def)             Requested size: 430.00462pt x 295.64328pt.
 
 [8 <./metro_stars_box.png>] [9 <./metro_price_box.png>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+<all_review_trend.png, id=56, 462.528pt x 317.988pt>
+File: all_review_trend.png Graphic file (type png)
+
+<use all_review_trend.png>
+Package pdftex.def Info: all_review_trend.png used on input line 292.
+(pdftex.def)             Requested size: 430.00462pt x 295.64328pt.
+ [11] [12]
+<all_review_trend_detail.png, id=63, 462.528pt x 317.988pt>
+File: all_review_trend_detail.png Graphic file (type png)
+
+<use all_review_trend_detail.png>
+Package pdftex.def Info: all_review_trend_detail.png used on input line 300.
+(pdftex.def)             Requested size: 430.00462pt x 295.64328pt.
+ [13 <./all_review_trend.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
-<ZHVI_price_reg.png, id=56, 462.528pt x 317.988pt>
+<ZHVI_price_reg.png, id=69, 462.528pt x 317.988pt>
 File: ZHVI_price_reg.png Graphic file (type png)
  <use ZHVI_price_reg.png>
-Package pdftex.def Info: ZHVI_price_reg.png used on input line 306.
+Package pdftex.def Info: ZHVI_price_reg.png used on input line 325.
 (pdftex.def)             Requested size: 430.00462pt x 295.64328pt.
 
-[11] [12] <stars_price_scatter_metro.png, id=65, 421.8159pt x 361.35pt>
+[14 <./all_review_trend_detail.png>]
+<stars_price_scatter_metro.png, id=76, 421.8159pt x 361.35pt>
 File: stars_price_scatter_metro.png Graphic file (type png)
 
 <use stars_price_scatter_metro.png>
-Package pdftex.def Info: stars_price_scatter_metro.png used on input line 314.
+Package pdftex.def Info: stars_price_scatter_metro.png used on input line 333.
 (pdftex.def)             Requested size: 430.00462pt x 368.36261pt.
- [13 <./ZHVI_price_reg.png>]
-(./jac_paper.bbl [14 <./stars_price_scatter_metro.png>])
+ [15 <./ZHVI_price_reg.png>]
+(./jac_paper.bbl [16 <./stars_price_scatter_metro.png>])
 
 Package natbib Warning: There were undefined citations.
 
-[15] (./jac_paper.aux)
+[17] (./jac_paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3454 strings out of 493315
- 46961 string characters out of 6137904
+ 3467 strings out of 493315
+ 47302 string characters out of 6137904
  120124 words of memory out of 5000000
- 6843 multiletter control sequences out of 15000+600000
+ 6854 multiletter control sequences out of 15000+600000
  11866 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,7n,26p,453b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -448,10 +463,10 @@ cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
 /texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on jac_paper.pdf (15 pages, 1616979 bytes).
+Output written on jac_paper.pdf (17 pages, 1756612 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
