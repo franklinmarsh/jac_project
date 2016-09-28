@@ -220,13 +220,82 @@ WI    &   0.057833 &   0.066647 &     0.999710 &   15 \\
 \end{table}
 
 
-\subsection{Determination of Most Common Yelp Tags} \label{Determination of Most Common Yelp Tags}
+\subsection{Determination of Most Common Yelp Categories and Chains} \label{Determination of Most Common Yelp Categories and Chains}
 
-Each Yelp business has user-generated tags, that allow other users to determine what genre the business is. For restaurants, common tags are "Mexican", "Chinese", etc.
+Each Yelp business has user-generated tags, that allow other users to determine what genre the business is. 
+In the full Yelp Dataset, there are 892 distinct categories. In the full Yelp Dataset (n = 77,445)
+
+\begin{table} \label{20_cats}
+\begin{tabular}{lr}
+\hline
+category &  counts \\ \hline
+Restaurants &   25071 \\
+Shopping &   11233 \\
+Food &    9250 \\
+Beauty \& Spas &    6583 \\
+Health \& Medical &    5121 \\
+Nightlife &    5088 \\
+Home Services &    4785 \\
+Bars &    4328 \\
+Automotive &    4208 \\
+Local Services &    3468 \\
+Active Life &    3103 \\
+Fashion &    3078 \\
+Event Planning \& Services &    2975 \\
+Fast Food &    2851 \\
+Pizza &    2657 \\
+Mexican &    2515 \\
+Hotels \& Travel &    2495 \\
+American (Traditional) &    2416 \\
+Sandwiches &    2364 \\
+Arts \& Entertainment &    2271 \\\hline
+\end{tabular}
+\caption{The 20 most common Yelp tags in the Full Dataset (n = 77,445).}
+\end{table}
+
+Each Yelp business has a user-generated name. Many prominent chains have locations in neighborhoods across the country
+
+\begin{table} \label{20_chains}
+\begin{tabular}{rl}
+\hline
+counts &                    name \\
+\hline
+483 &               Starbucks \\
+365 &                  Subway \\
+345 &              McDonald's \\
+200 &               Walgreens \\
+180 &               Taco Bell \\
+155 &               Pizza Hut \\
+147 &             Burger King \\
+144 &                 Wendy's \\
+134 &           The UPS Store \\
+120 &           Panda Express \\
+119 &          Dunkin' Donuts \\
+118 &         Bank of America \\
+114 &             Great Clips \\
+108 &        Wells Fargo Bank \\
+107 &                Circle K \\
+ 97 &          Domino's Pizza \\
+ 95 &  Chipotle Mexican Grill \\
+ 95 &            Jimmy John's \\
+ 93 &                     KFC \\
+ 88 &          US Post Office \\
+\hline
+\end{tabular}
+\caption{The 20 most common Yelp restaurant names in the Full Dataset (n = 77,445).}
+\end{table}
 
 \subsection{Computation of Price Trend} \label{Computation of Price Trend}
 
 \section{Results} \label{Results}
+
+Ideas: \\
+
+1. For each chain, how does chain density (spatial, and fractional) relate to ZHVI. \\
+
+2. How does ``chainy-ness" ($\frac{N_{\text{chain}}}{N_{\text{local}}}$) relate to neighborhood ZHVI / size. \\
+
+3. For each chain, how does chain review correlate with neighborhood ZHVI / size. \\
 
 \subsection{Statics Results} \label{Static Results}
 
