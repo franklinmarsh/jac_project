@@ -1,0 +1,63 @@
+A review_sentiment.csv
+rows: reviews
+	01 review_id: unique review id
+	02 words: number of words in review
+	03 sentences: number of sentences in review
+	04 ease: reading ease of review
+	05 grade: flesch-kincaid reading level of review
+	06 dale_chall: dale_chall reading level of review
+	07 stars: stars of review
+	08 business_id: unique business id
+	09 z_hood: zillow neighborhood identifier
+	10 latest_zhvi: June 2016 ZHVI for z_hood
+	11 latest_sqft: June 2016 ZHVI per square foot for z_hood
+	12 lat: latitude center of neighborhood bounding box
+	13 lon: longitude center of neighborhood bounding box
+	14 bbox_area: area of the bounding box in square miles
+	15 polarity: review polarity, as computed by TextBlob
+	16 subjectivity: review subjectiviy, as computed by TextBlob
+	17 year: review time in years
+	18 user_id: unique id of user that wrote the review
+B review_with_text.csv
+rows: reviews
+	01 review_id: unique review id
+	02 text: complete review text
+C static_stats.csv
+rows: neighborhoods
+	01 latest_sqft: June 2016 ZHVI per square foot for z_hood
+	02 latest_zhvi: June 2016 ZHVI for z_hood
+	03 mean_price: the mean yelp dollar sign price for a restaurant in this neighborhood ($,$$,$$$,$$$$)
+	04 mean_price_err: standard error of the mean_price for this neighborhood
+	05 mean_stars: the mean yelp stars of businesses in this neighborhood
+	06 mean_stars_err: the standard error of the mean for the mean_stars in this neighborhood
+	07 n: the number of businesses in this neighborhood
+	08 z_hood: zillow neighborhood identifier
+	09 loop_i: ignore, identifier for checking if a computation was working correctly
+	10 state: state the neighborhood is in
+	11 county: county the neighborhood is in
+	12 city: city the neighborhood is in
+	13 neighborhood: neighborhood name 
+	14 lat: latitude center of neighborhood bounding box
+	15 lon: longitude center of neighborhood bounding box
+	16 lat_width: latitude width of neighborhood bounding box
+	17 lon_width: longitude width of neighborhood bounding box
+	18 bbox_area: area of the bounding box in square miles
+D user_hood3.txt
+rows: users 
+	01 user_id: unique id of user.
+	02 z_hood: the medoid zillow neighborhood of the user. 0 if the medoid business is not in a zillow neighborhood.
+	03 frac_in_hood: fraction of the user’s reviews that are of businesses in the medoid neighborhood.
+	04 n_reviews: total number of reviews that a user has written
+	05 mean_words: the mean number of words per review
+	06 std_words: the standard deviation of the number of words per review
+	07 mean_sentences: the mean number of sentences per review
+	08 std_sentences: the standard deviation of the number of sentences per review
+	09 mean_ease: the mean reading ease of the user’s reviews
+	10 std_ease: the standard deviation of the reading ease of the user’s reviews
+	11 mean_dc: the mean dale-chall readability metric of the user’s reviews
+	12 std_dc: the standard deviation of the dale-chall readability metric for the user’s reviews
+	13 mean_stars: the mean star rating of the user’s review
+	14 std_stars: the standard deviation of star rating for the user’s reviews
+	15 mean_rel: the mean star rating relative to the business mean for the user’s reviews 
+	16 std_rel: the standard deviation of the star rating relative to the business mean for the user’s reviews 
+
