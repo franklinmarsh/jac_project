@@ -1,4 +1,4 @@
-A_review_stat.csv
+R_review_stat.csv
 rows: reviews
 	01 review_id: unique review id
 	02 words: number of words in review
@@ -18,11 +18,11 @@ rows: reviews
 	16 subjectivity: review subjectiviy, as computed by TextBlob
 	17 year: review time in years
 	18 user_id: unique id of user that wrote the review
-B_review__text.csv
+T_review__text.csv
 rows: reviews
 	01 review_id: unique review id
 	02 text: complete review text
-C_neighborhood.csv
+N_neighborhood.csv
 rows: neighborhoods
 	01 latest_sqft: June 2016 ZHVI per square foot for z_hood
 	02 latest_zhvi: June 2016 ZHVI for z_hood
@@ -42,12 +42,18 @@ rows: neighborhoods
 	16 lat_width: latitude width of neighborhood bounding box
 	17 lon_width: longitude width of neighborhood bounding box
 	18 bbox_area: area of the bounding box in square miles
-
-D_business.csv
+B_business.csv
 rows: businesses
-	01 
-
-E_user.csv
+	01 business_id: unique business id
+	02 mean_stars: the mean star rating of the business
+	03 categories: a list of business categories
+	04 review_count: the number of reviews that this business has
+	05 open: whether the business was open at the most recent data release
+	06 stars: a rounded mean number of stars that the business has received
+	07 latitude: the latitude of the business
+	08 longitude: the longitude of the business
+	09 z_hood: the zillow neighorhood identifier of the business
+U_user.csv
 rows: users 
 	01 user_id: unique id of user.
 	02 z_hood: the medoid zillow neighborhood of the user. 0 if the medoid business is not in a zillow neighborhood.
