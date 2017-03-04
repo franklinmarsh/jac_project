@@ -25,7 +25,7 @@
 
 Many large technology services have a large amount of data on they users. This data is used to predict consumer behavior and target advertising to maximize revenue. In order to improve their services, some companies release some of their data to the public. Often, companies that release their data to the public do so to discover new ways of using their data. For example, the business review company Yelp hosts the ``Yelp Dataset Challenge", where scholars can access the data and can donate their time to help Yelp understand their users.
 
-Participants in The Challenge have produced original research on a variety of topics. 
+Participants in the challenge have produced original research on a variety of topics. 
 
 \citep{alghunaim2015vector,byers2012groupon,cawkwell2015tracking,chepurna2015exploiting,feng2013recommendation,gutierrez2014noise,hajas2014analysis,hu2014your,liu2015mining,mashhadi2012accuracy,quattrone2015there}
 
@@ -428,6 +428,13 @@ Y''_{h}(t) = \frac{m(Y'_{h}(t))}{\sum_{t = 1}^{m}Y'_{h}(t)} - 1
 
 For each neighborhood $h$, we wish to compute
 
+\section{Neighborhood Gentrification Model}
+
+We construct a model for the year-over-year appreciation rate.
+
+\begin{equation} \label{neighborhood_model}
+\text{ZRI} \sim \text{metro} + n + \mu_{\text{\$}} + \mu_{\text{rating}}
+\end{equation}
 
 \bibliographystyle{abbrvnat}
 \bibliography{jac_paper.bib}
